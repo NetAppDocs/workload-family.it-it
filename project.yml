@@ -9,7 +9,7 @@ settings:
     pdf_enabled: false
     harmony_enabled: false
     lipi_enabled: false
-  langs: it-it,us-en,ja-jp,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr
+  langs: it-it,us-en,de-de,es-es,fr-fr,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
 sidebar:
   entries:
   - title: Tutta la documentazione di fabbrica del carico di lavoro
