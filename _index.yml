@@ -26,13 +26,13 @@ product-family:
   tiles:
   - title: Installazione e amministrazione
     icon: "./media/icon-admin.png"
-    url: https://docs.netapp.com/us-en/workload-setup-admin/index.html
+    url: "../workload-setup-admin/index.html"
     summary: Scopri come iniziare a utilizzare la fabbrica dei workload, amministrare
       le credenziali e utilizzare Codebox per l'automazione.
     tags: all,admin
   - title: Note di rilascio
     icon: "./media/icon-docs.png"
-    url: https://docs.netapp.com/us-en/workload-relnotes/whats-new.html
+    url: "../workload-relnotes/whats-new.html"
     summary: Scopri le novità di tutti i workload Factory.
     tags: all
   - title: API
@@ -43,32 +43,32 @@ product-family:
     tags: all,api
   - title: Costruttori
     icon: "./media/icon-builders.png"
-    url: https://docs.netapp.com/us-en/workload-builders/index.html
+    url: "../workload-builders/index.html"
     summary: Semplificare l'accesso e il consumo delle versioni software abilitando
       l'integrazione istantanea dei cloni con sistemi di controllo delle versioni
       e flussi di ci/CD, risparmiando tempo e risorse.
     tags: all,workload
   - title: Database
     icon: "./media/icon-database.png"
-    url: https://docs.netapp.com/us-en/workload-databases/index.html
+    url: "../workload-databases/index.html"
     summary: Implementa database end-to-end con Best practice integrate per l'ottimizzazione,
       utilizzando i file system FSX per ONTAP come datastore esterno.
     tags: all,workload
   - title: Genai
     icon: "./media/icon-ai.png"
-    url: https://docs.netapp.com/us-en/workload-genai/index.html
+    url: "../workload-genai/index.html"
     summary: Integra i dati dei file system FSX per ONTAP con le piattaforme MLOps
       e i modelli di base Genai per creare chatbot funzionali.
     tags: all,workload
   - title: Storage
     icon: "./media/icon-storage.png"
-    url: https://docs.netapp.com/us-en/workload-fsx-ontap/index.html
+    url: "../workload-fsx-ontap/index.html"
     summary: Implementa e gestisci i file system FSX per ONTAP per usare le funzionalità
       complete di ONTAP come servizio nativo e gestito da AWS.
     tags: all,storage
   - title: VMware
     icon: "./media/icon-vmware.png"
-    url: https://docs.netapp.com/us-en/workload-vmware/index.html
+    url: "../workload-vmware/index.html"
     summary: Ottimizza le migrazioni dagli ambienti vSphere on-premise a VMware Cloud
       su AWS e implementa file system FSX per ONTAP personalizzati come datastore
       esterno.
