@@ -3,10 +3,10 @@
 
 
 [role="lead"]
-Monitora e tieni traccia dell'esecuzione delle operazioni del carico di lavoro e monitora l'avanzamento delle attività con Tracker in BlueXP  workload Factory.
+Monitora e tieni traccia dell'esecuzione delle operazioni del carico di lavoro e monitora l'avanzamento delle attività con Tracker in NetApp Workload Factory.
 
 .A proposito di questa attività
-Workload Factory fornisce Tracker, una funzionalità di monitoraggio che consente di monitorare e tenere traccia dell'avanzamento e dello stato delle operazioni dei carichi di lavoro, esaminare i dettagli delle attività operative e delle attività secondarie e diagnosticare eventuali problemi o errori.
+NetApp Workload Factory fornisce Tracker, una funzionalità di monitoraggio che consente di monitorare e tenere traccia dell'avanzamento e dello stato delle operazioni del carico di lavoro, esaminare i dettagli delle attività e delle sottoattività operative e diagnosticare eventuali problemi o guasti.
 
 In Tracker sono disponibili diverse azioni. È possibile filtrare i lavori in base all'intervallo di tempo (ultime 24 ore, 7 giorni, 14 giorni o 30 giorni), al carico di lavoro, allo stato e all'utente, trovare i lavori utilizzando la funzione di ricerca e scaricare la tabella dei lavori come file CSV. È possibile aggiornare il Tracker in qualsiasi momento, riprovare rapidamente un'operazione non riuscita o modificare i parametri per un'operazione non riuscita e riprovare.
 
@@ -34,15 +34,12 @@ Conservazione degli eventi:: Gli eventi vengono conservati nell'interfaccia uten
 
 == Monitoraggio e monitoraggio delle operazioni
 
-Monitoraggio e monitoraggio delle operazioni in BlueXP  con Tracker.
+Monitora e monitora le operazioni nella console Workload Factory con Tracker.
 
 .Fasi
 . Accedere utilizzando uno dei link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["esperienze di console"^].
-. Nel carico di lavoro, seleziona il menu delle impostazioni dell'account, quindi seleziona *Tracker*.
-+
-image:screenshot-menu-tracker-option.png["Una schermata del menu delle impostazioni dell'account con l'opzione Tracker evidenziata."]
-
-. Nella scheda Tracker, utilizzare i filtri o cercare per restringere i risultati dei lavori. È anche possibile scaricare un rapporto lavori.
+. Dal menu del carico di lavoro, seleziona *Amministrazione* e poi *Tracker*.
+. In Tracker, utilizza i filtri o la ricerca per restringere i risultati dei lavori.  È anche possibile scaricare un report sui lavori.
 
 
 
@@ -53,7 +50,7 @@ Visualizzare la richiesta API nella Codebox per un'attività in Tracker.
 
 .Fasi
 . In Tracker, selezionare un'attività.
-. Selezionare il menu a tre punti, quindi selezionare *Visualizza richiesta API*.
+. Selezionare il menu azioni e quindi selezionare *Visualizza richiesta API*.
 
 
 
@@ -67,7 +64,7 @@ NOTE: È possibile riprovare un'operazione non riuscita fino a 10 volte.
 
 .Fasi
 . In Tracker, selezionare un'operazione non riuscita.
-. Selezionare il menu a tre punti, quindi selezionare *Riprova*.
+. Selezionare il menu azioni e quindi selezionare *Riprova*.
 
 
 .Risultato
@@ -81,7 +78,7 @@ Modificare i parametri dell'operazione non riuscita e riprovare l'operazione al 
 
 .Fasi
 . In Tracker, selezionare un'operazione non riuscita.
-. Selezionare il menu a tre punti, quindi selezionare *Modifica e riprovare*.
+. Selezionare il menu azioni e quindi selezionare *Modifica e riprova*.
 +
 Si viene reindirizzati alla pagina delle operazioni in cui è possibile modificare i parametri e riprovare l'operazione.
 
