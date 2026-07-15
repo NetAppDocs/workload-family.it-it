@@ -52,12 +52,6 @@ product-family:
     summary: Implementa database end-to-end con Best practice integrate per l'ottimizzazione,
       utilizzando i file system FSX per ONTAP come datastore esterno.
     tags: all,workload
-  - title: Genai
-    icon: "./media/icon-ai.png"
-    url: "../workload-genai/index.html"
-    summary: Integra i dati dei file system FSX per ONTAP con le piattaforme MLOps
-      e i modelli di base Genai per creare chatbot funzionali.
-    tags: all,workload
   - title: Storage
     icon: "./media/icon-storage.png"
     url: "../workload-fsx-ontap/index.html"
