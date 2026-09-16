@@ -99,40 +99,10 @@
   <block id="8c4aa541ee911e8d80451ef8cc304806" category="sidebar">Storage</block>
   <block id="b02ec41574109950953b880723bdaffc" category="sidebar">Implementa e gestisci i file system FSX per ONTAP per usare le funzionalità complete di ONTAP come servizio nativo e gestito da AWS.</block>
   <block id="7200d2fe60732fcead16bd936858301f" category="sidebar">Implementa database end-to-end con Best practice integrate per l'ottimizzazione, utilizzando i file system FSX per ONTAP come datastore esterno.</block>
-  <block id="cccae24691c5ff7191f1ffebe4352285" category="sidebar">Genai</block>
-  <block id="2b810e335ed1777d9d90e638c21588bf" category="sidebar">Integra i dati dei file system FSX per ONTAP con le piattaforme MLOps e i modelli di base Genai per creare chatbot funzionali.</block>
   <block id="1a61f87dd9021f3f5868a4a4418a6116" category="sidebar">Ottimizza le migrazioni dagli ambienti vSphere on-premise a VMware Cloud su AWS e implementa file system FSX per ONTAP personalizzati come datastore esterno.</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Note di rilascio</block>
   <block id="ea2ef9b0d095bf991f4973633b485340" category="sidebar">Database</block>
   <block id="56079badd056a19303cc26e6a4fcc7e0" category="sidebar">VMware</block>
-  <block id="cfd98e00a6e308c04ab9f76a854b6989" category="doc">Monitoraggio e monitoraggio delle operazioni</block>
-  <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">A proposito di questa attività</block>
-  <block id="4a60367cb1382179b571e891381eaf8d" category="paragraph">In Tracker sono disponibili diverse azioni. È possibile filtrare i lavori in base all'intervallo di tempo (ultime 24 ore, 7 giorni, 14 giorni o 30 giorni), al carico di lavoro, allo stato e all'utente, trovare i lavori utilizzando la funzione di ricerca e scaricare la tabella dei lavori come file CSV. È possibile aggiornare il Tracker in qualsiasi momento, riprovare rapidamente un'operazione non riuscita o modificare i parametri per un'operazione non riuscita e riprovare.</block>
-  <block id="9233b1148f18eb744b69d4d3620c296c" category="paragraph">Tracker supporta due livelli di monitoraggio a seconda del funzionamento. Ogni attività, come la distribuzione del file system, visualizza la descrizione dell'attività, lo stato, l'ora di inizio, la durata dell'attività, l'utente, la regione, la risorsa proxy, l'ID attività e tutte le attività secondarie correlate. È possibile visualizzare le risposte API per capire cosa è successo durante l'operazione.</block>
-  <block id="5cdbeb1c4cc65e8f551e161828701113" category="list-text">Tracker i livelli di attività con esempi</block>
-  <block id="21a1f3fb63f8e2b67d072b29080f89f9" category="list-text">Livello 1 (attività): Tiene traccia della distribuzione del file system.</block>
-  <block id="5517abda6821fee1e969e9d59498b33e" category="list-text">Livello 2 (attività secondaria): Tiene traccia delle attività secondarie relative alla distribuzione del file system.</block>
-  <block id="88ebc1f479e6de47fd711c4be81c4d26" category="list-text">Stato del funzionamento</block>
-  <block id="afcc9733e2e2e0ce70f1ecee29c8f008" category="list-text">Lo stato dell'operazione in Tracker è il seguente _in Progress_, _Success_ e _FAILED_.</block>
-  <block id="de32977622108a1960ab0fcf45adaf80" category="list-text">Frequenza di funzionamento</block>
-  <block id="a9853b6069302c4152781f48222c3541" category="list-text">La frequenza operativa si basa sul tipo di lavoro e sulla pianificazione del lavoro.</block>
-  <block id="01b0a4fcc33bdafd6e65537f24f463de" category="list-text">Conservazione degli eventi</block>
-  <block id="b3c382e94f4b4abcc049ce95e85dc998" category="list-text">Gli eventi vengono conservati nell'interfaccia utente per 30 giorni.</block>
-  <block id="dcafe9cce796ce855e87b270f0a5af59" category="inline-link-macro">esperienze di console</block>
-  <block id="e1e54933838bb7ba662301d01c937d2d" category="list-text">Accedere utilizzando uno dei <block ref="68ceec76279c6913cdee16884c2d813a" category="inline-link-macro-rx"></block>.</block>
-  <block id="aa2a2cd452f8a71b2f2dcdae68114732" category="section-title">Visualizza richiesta API</block>
-  <block id="68538d555ae12c680ea428aaa850d90f" category="paragraph">Visualizzare la richiesta API nella Codebox per un'attività in Tracker.</block>
-  <block id="968877018213bf42962084001c210472" category="list-text">In Tracker, selezionare un'attività.</block>
-  <block id="1448fba076a066622a9f93a25ab170a2" category="section-title">Riprovare un'operazione non riuscita</block>
-  <block id="89f1070b2ef1ba678a8cb4823fa74cb2" category="paragraph">Riprovare un'operazione non riuscita in Tracker. È anche possibile copiare il messaggio di errore di un'operazione non riuscita.</block>
-  <block id="25f39cb1a1fb7c5e04993249b6cabc32" category="admonition">È possibile riprovare un'operazione non riuscita fino a 10 volte.</block>
-  <block id="b866b632b7f32ded2a0a0907100641bf" category="list-text">In Tracker, selezionare un'operazione non riuscita.</block>
-  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">Risultato</block>
-  <block id="121145d60db2324903b129ae74d6c0a9" category="paragraph">L'operazione viene riavviata.</block>
-  <block id="bde5076ae2a993de9042a7e1dd4dc445" category="section-title">Modificare e riprovare un'operazione non riuscita</block>
-  <block id="2ae5a8ae85adca2aebf16aa81130c9c5" category="paragraph">Modificare i parametri dell'operazione non riuscita e riprovare l'operazione al di fuori del Tracker.</block>
-  <block id="a071e4310b0dbc18ec326c217f47692f" category="paragraph">Si viene reindirizzati alla pagina delle operazioni in cui è possibile modificare i parametri e riprovare l'operazione.</block>
-  <block id="49814788ce382c87a117a40e54ae858b" category="paragraph">L'operazione viene riavviata. Andare su Tracker per visualizzare lo stato dell'operazione.</block>
   <block id="3c6efe0ce159fb5b8ee4882bcf3ad973" category="paragraph">NetApp fornisce supporto per Workload Factory e i suoi servizi cloud in vari modi. Sono disponibili ampie opzioni di auto-assistenza gratuite 24 ore su 24, 7 giorni su 7, come articoli della knowledge base (KB) e un forum della community. La registrazione al supporto include supporto tecnico remoto tramite ticket web.</block>
   <block id="4435b263dd1a35bcd8dfda050db92b3b" category="paragraph">Per supporto tecnico relativo a FSx for ONTAP, alla sua infrastruttura o a qualsiasi soluzione che utilizzi il servizio, fare riferimento alla sezione "Ottenere assistenza" nella documentazione di Workload Factory per quel prodotto.</block>
   <block id="359d8b16e442ffaa72e03c95fcd60448" category="paragraph"><block ref="359d8b16e442ffaa72e03c95fcd60448" category="inline-link-macro-rx"></block></block>
@@ -170,14 +140,6 @@
   <block id="fb9b6bbcab5fb396a13f67594a0ba1ee" category="list-text">Assicurati di copiare il numero di serie dell'account NetApp (960xxxx) utilizzato sopra per il campo del numero di serie. Ciò velocizzerà l'elaborazione dell'account.</block>
   <block id="40eff8559acd41057187b6cb11fa1919" category="list-text">Associa il tuo nuovo account NSS al tuo accesso alla console NetApp completando i passaggi indicati di seguito<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> .</block>
   <block id="f335678326583cea28377216c5515221" category="paragraph">Una volta ottenuto l'account del sito di supporto NetApp , associalo al tuo accesso alla console NetApp completando i passaggi indicati di seguito<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> .</block>
-  <block id="90f1d591a5568f9514509a22083b5b1a" category="paragraph">Monitora e tieni traccia dell'esecuzione delle operazioni del carico di lavoro e monitora l'avanzamento delle attività con Tracker in NetApp Workload Factory.</block>
-  <block id="6e6b128e6a9a02188dabea0077b4ad0b" category="paragraph">NetApp Workload Factory fornisce Tracker, una funzionalità di monitoraggio che consente di monitorare e tenere traccia dell'avanzamento e dello stato delle operazioni del carico di lavoro, esaminare i dettagli delle attività e delle sottoattività operative e diagnosticare eventuali problemi o guasti.</block>
-  <block id="3681c25085cfd3a56604857cdcbcb245" category="paragraph">Monitora e monitora le operazioni nella console Workload Factory con Tracker.</block>
-  <block id="736c64c4ed0856a8d9aa760b894aef84" category="list-text">Dal menu del carico di lavoro, seleziona *Amministrazione* e poi *Tracker*.</block>
-  <block id="2ba65fb298b74a9b72d949d4fe3479b3" category="list-text">In Tracker, utilizza i filtri o la ricerca per restringere i risultati dei lavori.  È anche possibile scaricare un report sui lavori.</block>
-  <block id="bd56fc255ce900fc195c9bc0d7ed20c0" category="list-text">Selezionare il menu azioni e quindi selezionare *Visualizza richiesta API*.</block>
-  <block id="9d506eb8fb5e05c2467a690e5e727cd8" category="list-text">Selezionare il menu azioni e quindi selezionare *Riprova*.</block>
-  <block id="0270fd4391a6b334aa157faf0a6b7304" category="list-text">Selezionare il menu azioni e quindi selezionare *Modifica e riprova*.</block>
   <block id="42a584f66b7330d3e570bd80fda469ec" category="sidebar">NetApp Workload Factory è una potente piattaforma di gestione del ciclo di vita progettata per aiutarti a ottimizzare i tuoi carichi di lavoro utilizzando Amazon FSx for NetApp ONTAP.  Sfoglia la documentazione in base al tipo di carico di lavoro oppure utilizza la barra di ricerca per trovare contenuti in qualsiasi punto della documentazione di Workload Factory.</block>
   <block id="ba6dc48c42def59e6936ffe843e2d781" category="sidebar">Documentazione di NetApp Workload Factory</block>
   <block id="4e09e2bc58d401c44c1cac7e05658640" category="sidebar">Scopri come iniziare a usare Workload Factory, amministrare le credenziali e usare Codebox per l'automazione.</block>
@@ -186,4 +148,6 @@
   <block id="3a6525a130f3a3659951bc80b52a42e1" category="sidebar">Tutta la documentazione di Workload Factory</block>
   <block id="81f1b99be9951f3725aa3dd62766099e" category="sidebar">EDA</block>
   <block id="d783a4bda63a5d10b5fdfe91d9c38e49" category="sidebar">Ottimizza le prestazioni e i costi di FSx for ONTAP su più file system con la gestione automatizzata dell'archiviazione.</block>
+  <block id="a6c362bbe58560819472cdcb685dcd77" category="sidebar">Sicurezza delle informazioni</block>
+  <block id="95c4f2db3f1cb59f632d54beaf814d5f" category="sidebar">Scopri le funzionalità di sicurezza di Workload Factory e come valutare e integrare la piattaforma per soddisfare i requisiti di sicurezza aziendali.</block>
 </blocks>

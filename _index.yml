@@ -58,3 +58,8 @@ product-family:
       su AWS e implementa file system FSX per ONTAP personalizzati come datastore
       esterno.
     tags: all,workload
+  - title: Sicurezza delle informazioni
+    url: "../workload-infosec/index.html"
+    summary: Scopri le funzionalità di sicurezza di Workload Factory e come valutare
+      e integrare la piattaforma per soddisfare i requisiti di sicurezza aziendali.
+    tags: all,workload
