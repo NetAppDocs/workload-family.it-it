@@ -125,7 +125,6 @@
   <block id="65c95ed5c9f895be6dfa81e8583c86af" category="list-text">*CloudShell CLI*: Workload Factory include una CloudShell CLI per gestire e utilizzare gli ambienti AWS e NetApp su più account da un'unica CLI basata su browser.  Accedi a CloudShell dalla barra superiore della console di Workload Factory.</block>
   <block id="34904d30d825a389b588efb76a1ceb16" category="list-text">*API REST*: utilizza le API REST di Workload Factory per distribuire e gestire i tuoi file system FSx for ONTAP e altre risorse AWS.</block>
   <block id="3995165ba76339d9d4d08edf5a17c07c" category="list-text">*CloudFormation*: utilizza il codice AWS CloudFormation per eseguire le azioni definite nella console Workload Factory per modellare, fornire e gestire risorse AWS e di terze parti dallo stack CloudFormation nel tuo account AWS.</block>
-  <block id="a1b1209dad1b58c4e66fd68ee5bc0148" category="list-text">*Provider Terraform NetApp Workload Factory*: utilizza Terraform per creare e gestire i flussi di lavoro dell'infrastruttura generati nella console Workload Factory.</block>
   <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">Fabbrica di carichi di lavoro NetApp</block>
   <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
   <block id="3d9b602ae77ac6a4951ca31b05b6b54f" category="paragraph">Per ricevere supporto tecnico specifico per NetApp Workload Factory e le sue soluzioni e servizi di storage è necessaria la registrazione al supporto.  È necessario registrarsi per ricevere supporto dalla NetApp Console, una console basata sul Web separata da Workload Factory.</block>
@@ -150,4 +149,5 @@
   <block id="d783a4bda63a5d10b5fdfe91d9c38e49" category="sidebar">Ottimizza le prestazioni e i costi di FSx for ONTAP su più file system con la gestione automatizzata dell'archiviazione.</block>
   <block id="a6c362bbe58560819472cdcb685dcd77" category="sidebar">Sicurezza delle informazioni</block>
   <block id="95c4f2db3f1cb59f632d54beaf814d5f" category="sidebar">Scopri le funzionalità di sicurezza di Workload Factory e come valutare e integrare la piattaforma per soddisfare i requisiti di sicurezza aziendali.</block>
+  <block id="06e2f75907573850abfa673fd6e8572a" category="list-text">*NetApp Terraform provider*: Usa Terraform per creare e gestire i workflow di infrastruttura generati nella console di Workload Factory.</block>
 </blocks>
